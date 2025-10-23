@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test-21 | Dashboard Recruteur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="Test-21" class="logo">
+      <h1>Test-21</h1>
+    </div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="dashboard.html" class="active">Dashboard Recruteur</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card dashboard">
+      <h2>Tableau de bord Recruteur</h2>
+      <p>
+        Bienvenue sur votre tableau de bord recruteur. Ici vous pouvez suivre vos performances et votre réseau.
+      </p>
+      <div class="dashboard-content">
+        <div class="score-box">
+          <h3>Votre Score</h3>
+          <p id="score">--</p>
+        </div>
+        <div class="rebates-box">
+          <h3>Vos Paliers de Rebate</h3>
+          <ul id="rebates-list">
+            <!-- Rebates loaded via JS -->
+          </ul>
+        </div>
+        <div class="boosts-box">
+          <h3>Vos Boosts Court Terme</h3>
+          <ul id="boosts-list">
+            <!-- Boosts loaded via JS -->
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Test-21. Tous droits réservés.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
